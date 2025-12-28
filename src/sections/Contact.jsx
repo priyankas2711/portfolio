@@ -1,9 +1,11 @@
 export default function Contact() {
   return (
     <section
-      id="contact"
-      className="min-h-screen -mt-16 flex flex-col items-center justify-center text-white px-6 scroll-smooth"
-    >
+  id="contact"
+  className="min-h-screen pt-10 sm:pt-0 sm:-mt-10 md:-mt-16 lg:-mt-24 
+             flex flex-col items-center justify-center text-white px-6"
+>
+
       {/* Heading */}
       <h1 className="text-5xl font-extrabold italic tracking-wide text-center">
         <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
